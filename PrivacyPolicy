@@ -1,0 +1,109 @@
+# 隐私协议
+
+生效日期：2026-03-25
+
+本隐私协议旨在说明您在使用智核笔记（以下简称“本应用”）时，本应用如何收集、使用、存储与保护您的信息。请您在使用本应用前仔细阅读。
+
+## 1. 我们可能收集哪些信息
+
+1) **您主动提供的内容**  
+当您在本应用中粘贴/输入文本并保存条目时，本应用会处理您的输入内容，用于生成标题、摘要与标签并保存到您的知识库中。
+
+2) **设备与使用信息（用于改进体验）**  
+本应用可能会记录基本的设备信息与使用过程中的日志（例如崩溃日志/性能相关信息等），以便诊断问题和优化体验。
+
+3) **订阅与付费相关信息**  
+订阅付款由 Apple 的订阅系统处理。本应用不会直接获取您的付款卡信息。
+
+4) **订阅额度与次数状态（用于计费与限流）**  
+为在不同安装/重装后尽量保持额度状态，本应用可能使用 iCloud Key-Value（iCloud 的键值存储）保存“云端整理次数/周期”等信息（仅用于本应用的额度与功能可用性）。
+
+5) **云端整理所需的网络请求参数**  
+当您开启“使用大模型整理”并发起整理时，本应用会将您输入的文本与必要的模型/参数发送至您选择的第三方模型服务端点（例如千问兼容接口等）。  
+如果您使用自备 API Key（BYOK），该 Key 由您在本应用中配置并用于发起请求。
+
+## 2. 我们如何使用信息
+
+我们可能在以下场景使用上述信息：
+
+- 为您提供“整理并保存”等功能（生成标题/摘要/标签）
+- 支持云端额度的计费与限流（按订阅周期扣减可用次数）
+- 保障与改进应用稳定性（错误诊断、性能优化）
+- 遵守法律法规与合规要求
+
+## 3. 信息与数据的存储位置
+
+- **本地存储**：您的知识条目等内容主要保存在您的设备本地。
+- **iCloud Key-Value**：为保持额度状态跨安装重装可用性，本应用可能使用 iCloud Key-Value 保存额度相关计数。
+- **云端第三方**：当您使用云端大模型整理时，会把相关内容发送给第三方服务以完成生成。
+
+## 4. 与第三方共享信息
+
+在提供云端整理功能时，我们会向第三方模型服务提供必要的请求数据（包括您输入的文本与模型参数），以完成生成。  
+除法律法规要求或本协议约定外，我们不会向其他第三方出售、出租或以其他方式披露您的个人信息。
+
+## 5. 您的选择
+
+- 您可以随时关闭“使用大模型整理”，届时本应用将仅进行本地整理。
+- 您可以在本应用的设置中更改模型提供方与参数。
+- 您可以在系统层面管理应用数据与 iCloud 权限。
+
+## 6. 数据安全
+
+我们采取合理的安全措施保护您的信息。尽管如此，任何互联网传输与数据存储都存在无法完全保证的风险。
+
+## 7. 儿童隐私
+
+本应用不面向儿童收集个人信息。如您认为可能涉及儿童信息，请通过应用内联系方式与我们联系。
+
+## 8. 本隐私协议的更新
+
+我们可能会不时更新本隐私协议。更新后的版本会在应用内展示或通过合适方式告知您。继续使用本应用即表示您接受更新后的协议内容。
+
+## 9. 联系我们
+
+如有关于隐私或数据处理的问题，您可以通过本应用内的反馈入口与我们联系。
+
+# Privacy Policy
+
+Effective date: 2026-03-25
+
+This Privacy Policy explains how LearnVault (the “App”) collects, uses, stores, and protects your information when you use the App. Please read it carefully before using the App.
+
+## 1. Information We May Collect
+
+1) **Content you provide**  
+When you paste or enter text and save entries, the App processes your input to generate titles, summaries, and tags.
+
+2) **Device and usage information**  
+We may store basic device information and relevant logs (e.g., crash/performance-related information) to diagnose issues and improve the experience.
+
+3) **Subscription and billing-related information**  
+Billing is handled by Apple’s subscription services. We do not directly obtain your payment card information.
+
+4) **Cloud AI usage/accounting (for quota and rate limiting)**  
+When you enable cloud AI summarization, the App sends the necessary text and parameters to third-party model providers to generate results.
+
+## 2. How We Use Information
+
+We use the information to:
+- Provide “Organize & Save” and related features
+- Support cloud quota/rate limiting based on subscription cycles
+- Maintain security, stability, and compliance
+
+## 3. Storage and Sharing
+
+- **Local storage**: your knowledge entries are mainly stored on your device.
+- **Cloud processing**: when enabled, your content may be sent to third-party model providers for generation.
+
+We do not sell, rent, or otherwise disclose your personal information to other parties except as required by law or as described in this policy.
+
+## 4. Your Choices
+
+- You can turn off “Use AI summarization” to use only local summarization.
+- You can manage app data and system permissions.
+
+## 5. Contact Us
+
+If you have questions about privacy or data handling, contact us through the feedback entry inside the App.
+"""
